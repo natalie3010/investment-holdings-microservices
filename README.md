@@ -28,7 +28,7 @@
         - debug post method (AxiosError: connect ECONNREFUSED ::1:80)
         - refactor 'convertInvestmentsToCSV' function
         - unit tests for each function 
-        - switch to ES modules (import, export etc)
+        - switch to ES modules (import, export etc) and incorporate cleaner file structure (file for endpoints, file for manipulating data, index.js calling minimal functions)
         
 ## Getting Started
 
