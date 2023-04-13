@@ -1,4 +1,4 @@
-# Moneyhub Tech Test - Investments and Holdings
+# Investments and Holdings
 ## Requirements
 
 - An admin is able to generate a csv formatted report showing the values of all user holdings
@@ -9,7 +9,6 @@
     - The holding should be the name of the holding account given by the financial-companies service
     - The holding value can be calculated by `investmentTotal * investmentPercentage`
 - Ensure use of up to date packages and libraries (the service is known to use deprecated packages)
-- Make effective use of git
 
 ## Deliverables
 **Please make sure to update the readme with**:
@@ -25,7 +24,6 @@
         - make frameworks and libraries consistent 
         - pagination and filtering functionality of final data 
     3. What else would you have liked to improve given more time?
-        - debug post method (AxiosError: connect ECONNREFUSED ::1:80)
         - refactor 'convertInvestmentsToCSV' function
         - unit tests for each function 
         - switch to ES modules (import, export etc) and incorporate cleaner file structure (file for endpoints, file for manipulating data, index.js calling minimal functions)
@@ -50,7 +48,6 @@ The services will try to use ports 8081, 8082 and 8083
 5. Run the program using: npm start
 
 ### Existing routes
-We have provided a series of routes 
 
 Investments - localhost:8081
 - `/investments` get all investments
